@@ -1,0 +1,28 @@
+.searchBox {
+
+    margin-right: 0px;
+    top: 10px;
+    width: 300px;
+}
+
+
+@media (max-width: 991px) {
+
+    .searchBox {
+
+        margin: auto;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .searchBox {
+
+        height: 55px;
+        bottom: 0px;
+        width: 100%;
+        margin-bottom: 0px;
+        padding: 8px;
+        background-color: #f8f9fa;
+    }
+}
